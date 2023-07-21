@@ -1361,11 +1361,14 @@
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/512a0898-b1d3-4135-bc0d-b408e1a4dd31"
       (reference "J12") (unit 1) (value "DAT0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
-    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/5742418e-c2fd-4a0c-8b87-3328f26bcaa7"
-      (reference "J13") (unit 1) (value "DAT_DSP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical")
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/1970734f-4cdd-42cd-9387-7af79271de62"
+      (reference "J13") (unit 1) (value "DAT_DSP_1..8") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/5ebf5780-327c-4fd7-a25d-ec65853d9ce0"
       (reference "J14") (unit 1) (value "+ -") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/0b0d9160-9938-4cd0-b892-f568fc94ba80"
+      (reference "J15") (unit 1) (value "DAT_DSP_9..14") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/b9e696c4-ae03-4bea-bb3e-e63111859237/baeca21f-e3e8-461d-832f-da5986f424d1"
       (reference "JP1") (unit 1) (value "Conn_02x13_Odd_Even") (footprint "")
