@@ -6,8 +6,8 @@
 
   (title_block
     (title "Videonics Processor Plus PP-1 NTSC - Modded")
-    (date "2023-05-24")
-    (rev "3")
+    (date "2023-07-19")
+    (rev "4")
     (company "E Tracy")
   )
 
@@ -212,7 +212,7 @@
     (uuid f3e31003-32ba-4159-a223-1c50aa9af3a6)
   )
 
-  (text "Revision History\nRev 0: 20230516 Initial Version\nRev 1: 20230519 Update JP1 signal labels\nRev 2: 20230524 Bridged terminals 1 and 2 of CVC01\nRev 3: 20230607 Improved toplevel formatting, notes."
+  (text "Revision History\nRev 0: 20230516 Initial Version\nRev 1: 20230519 Update JP1 signal labels\nRev 2: 20230524 Bridged terminals 1 and 2 of CVC01\nRev 3: 20230607 Improved toplevel formatting, notes.\nRev 4: 20230719 Mod PCB Design & clean up"
     (at 123.19 196.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40eeae8e-fbc4-4f03-ad90-681c226582d5)
@@ -275,7 +275,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 229 191 1.0000))
     (uuid 75d87cb3-4bf4-4ca9-b41d-15bc43613f7c)
-    (property "Sheet name" "Device Settings Processor" (id 0) (at 127 62.7884 0)
+    (property "Sheet name" "Settings Controller (MCU)" (id 0) (at 127 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "sc403860p.kicad_sch" (id 1) (at 127 102.1846 0)
@@ -443,7 +443,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 229 191 1.0000))
     (uuid f06c0fef-9556-4b99-be67-4a5c2aec9580)
-    (property "Sheet name" "Video Processor" (id 0) (at 76.2 62.7884 0)
+    (property "Sheet name" "Video Processor (DSP)" (id 0) (at 76.2 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "video_processor.kicad_sch" (id 1) (at 76.2 102.1846 0)

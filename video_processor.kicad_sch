@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Video Processor")
-    (date "2023-05-24")
-    (rev "3")
+    (title "Video Processor (DSP)")
+    (date "2023-07-19")
+    (rev "4")
   )
 
   (lib_symbols

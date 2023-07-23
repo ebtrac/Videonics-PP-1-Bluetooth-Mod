@@ -432,7 +432,7 @@
     ],
     [
       "75d87cb3-4bf4-4ca9-b41d-15bc43613f7c",
-      "Device Settings Processor"
+      "Settings Controller (MCU)"
     ],
     [
       "0fc4fd02-e2b9-4673-9b27-9e1de701e72f",
@@ -440,7 +440,7 @@
     ],
     [
       "f06c0fef-9556-4b99-be67-4a5c2aec9580",
-      "Video Processor"
+      "Video Processor (DSP)"
     ],
     [
       "c75e76f4-1967-4b04-abbd-bc5dfe1ab587",
