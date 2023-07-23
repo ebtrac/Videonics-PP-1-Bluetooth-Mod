@@ -46,21 +46,21 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,,,
 ,,,,,,,,,
 Collated Components:,,,,,,,,,
 ,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Unit Cost,Total Cost,Vendor Link
-1,6,"C61, C62, C64, C65, C66, C67",100nF,Device:C,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,~,$0.57,$3.42,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A104K15X7RF5UAAP/13279845
-2,1,C63,10uF,Device:C_Polarized_US,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,~,$0.10,$0.10,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010372001/5726842
-3,0,J11,DAT_MCU,Connector_Generic:Conn_01x14,Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical,~,,$0.00,
-4,0,J12,DAT0,Connector_Generic:Conn_01x01,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,~,,$0.00,
-5,0,J13,DAT_DSP_1..8,Connector_Generic:Conn_01x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,$0.00,
-6,0,J14,+ -,Connector_Generic:Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,$0.00,
-7,0,J15,DAT_DSP_9..14,Connector_Generic:Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,,$0.00,
-,1,"J11,J12,J13,J14,J15",,01x40 male pin header,,,$1.53,$1.53,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61304011121/4846884
-8,3,"Q17, Q18, Q19",2N3904,Transistor_BJT:2N3904,Package_TO_SOT_THT:TO-92_Inline_Wide,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,$0.36,$1.08,https://www.digikey.com/en/products/detail/onsemi/2N3904BU/1413
-9,1,Q20,2N3904,Transistor_BJT:2N3904,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,$0.36,$0.36,https://www.digikey.com/en/products/detail/onsemi/2N3904BU/1413
-10,7,"R90, R91, R92, R94, R97, R98, R99",10k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,~,$0.10,$0.70,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265
-11,3,"R93, R95, R96",1k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,~,$0.10,$0.30,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314
-12,1,R100,220k,Device:R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,~,$0.10,$0.10,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT220K/1741641
-13,1,U9,BAEASU_ESP32_DevKit_v1,Videonics Proceessor Plus:DOIT_ESP32_DevKit_v1,videonics processor plus - Copy:DIP-30_1000_ELL,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf,$9.99,$9.99,https://www.amazon.com/BAEASU-ESP-WROOM-32-Development-Microcontroller-Compatible/dp/B0BY5FS8WD
-14,6,"U10, U11, U12, U13, U14, U15",74LS241,74xx:74LS241,Package_DIP:DIP-20_W7.62mm,http://www.ti.com/lit/ds/symlink/sn74ls241.pdf,$1.28,$7.68,https://www.digikey.com/en/products/detail/texas-instruments/SN74LS241N/563034
-,,,,,,,,$25.26,
+Item,Qty,Reference(s),Value,Datasheet Link,Unit Cost,Total Cost,Vendor Link,Vendor Link,Datasheet
+1,6,"C61, C62, C64, C65, C66, C67",100nF,~,$0.57,$3.42,link,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/A104K15X7RF5UAAP/13279845,~
+2,1,C63,10uF,~,$0.10,$0.10,link,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010372001/5726842,~
+3,0,J11,DAT_MCU,~,,$0.00,,,~
+4,0,J12,DAT0,~,,$0.00,,,~
+5,0,J13,DAT_DSP_1..8,~,,$0.00,,,~
+6,0,J14,+ -,~,,$0.00,,,~
+7,0,J15,DAT_DSP_9..14,~,,$0.00,,,~
+,1,"J11,J12,J13,J14,J15",,~,$1.53,$1.53,link,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61304011121/4846884,
+8,3,"Q17, Q18, Q19",2N3904,link,$0.36,$1.08,link,https://www.digikey.com/en/products/detail/onsemi/2N3904BU/1413,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+9,1,Q20,2N3904,link,$0.36,$0.36,link,https://www.digikey.com/en/products/detail/onsemi/2N3904BU/1413,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+10,7,"R90, R91, R92, R94, R97, R98, R99",10k,~,$0.10,$0.70,link,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265,~
+11,3,"R93, R95, R96",1k,~,$0.10,$0.30,link,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314,~
+12,1,R100,220k,~,$0.10,$0.10,link,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT220K/1741641,~
+13,1,U9,BAEASU_ESP32_DevKit_v1,link,$9.99,$9.99,link,https://www.amazon.com/BAEASU-ESP-WROOM-32-Development-Microcontroller-Compatible/dp/B0BY5FS8WD,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+14,6,"U10, U11, U12, U13, U14, U15",74LS241,link,$1.28,$7.68,link,https://www.digikey.com/en/products/detail/texas-instruments/SN74LS241N/563034,http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
+,,,,,,$25.26,,,
 ,,,,,,,,,
