@@ -1458,7 +1458,7 @@
       (reference "Q19") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/88656a7b-8df1-4faf-ac86-c791d10d969c"
-      (reference "Q20") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (reference "Q20") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
     (path "/962281b5-7e42-43dd-aa58-877cd64dcd85/48541b36-9402-4fa7-9b2a-ff2dd61ba4af"
       (reference "R1") (unit 1) (value "220R") (footprint "")
@@ -1842,7 +1842,7 @@
       (reference "U8") (unit 1) (value "MC10322P") (footprint "")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/7fa6aabb-7aad-4ddd-bebe-d6a7e5700079"
-      (reference "U9") (unit 1) (value "DOIT_ESP32_DevKit_v1") (footprint "videonics processor plus - Copy:DIP-30_1000_ELL")
+      (reference "U9") (unit 1) (value "BAEASU_ESP32_DevKit_v1") (footprint "videonics processor plus - Copy:DIP-30_1000_ELL")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/bada4fe3-f5b6-46d4-9767-f7dfaea8fcf9"
       (reference "U10") (unit 1) (value "74LS241") (footprint "Package_DIP:DIP-20_W7.62mm")

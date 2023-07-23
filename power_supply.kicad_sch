@@ -11,7 +11,7 @@
   )
 
   (lib_symbols
-    (symbol "Connector:Barrel_Jack_MountingPin" (pin_names hide) (in_bom yes) (on_board no)
+    (symbol "Connector:Barrel_Jack_MountingPin" (pin_names hide) (in_bom no) (on_board no)
       (property "Reference" "J" (id 0) (at 0 5.334 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -97,7 +97,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board no)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom no) (on_board no)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -148,7 +148,7 @@
         )
       )
     )
-    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board no)
+    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom no) (on_board no)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -211,7 +211,7 @@
         )
       )
     )
-    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board no)
+    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom no) (on_board no)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -273,7 +273,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -312,7 +312,7 @@
         )
       )
     )
-    (symbol "Diode:1N4001" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board no)
+    (symbol "Diode:1N4001" (pin_numbers hide) (pin_names hide) (in_bom no) (on_board no)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -373,7 +373,7 @@
         )
       )
     )
-    (symbol "Regulator_Linear:L7805" (pin_names (offset 0.254)) (in_bom yes) (on_board no)
+    (symbol "Regulator_Linear:L7805" (pin_names (offset 0.254)) (in_bom no) (on_board no)
       (property "Reference" "U" (id 0) (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -416,7 +416,7 @@
         )
       )
     )
-    (symbol "Regulator_Linear:MC7905" (pin_names (offset 0.254)) (in_bom yes) (on_board no)
+    (symbol "Regulator_Linear:MC7905" (pin_names (offset 0.254)) (in_bom no) (on_board no)
       (property "Reference" "U" (id 0) (at -3.81 -3.175 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -459,7 +459,7 @@
         )
       )
     )
-    (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -511,7 +511,7 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -563,7 +563,7 @@
         )
       )
     )
-    (symbol "power:-5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:-5V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -603,7 +603,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -643,7 +643,7 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board no)
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board no)
       (property "Reference" "#FLG" (id 0) (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1216,7 +1216,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 203.2 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 059cc29e-5c98-405b-b7bd-9371f603aad2)
     (property "Reference" "C4" (id 0) (at 206.121 95.0503 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1235,7 +1235,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 228.6 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 07952dfd-4f41-4783-9434-f40a114b23c6)
     (property "Reference" "C5" (id 0) (at 231.521 95.0503 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1254,7 +1254,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 185.42 69.85 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 0afd8ff1-405a-45d1-8552-4182e4dc32c9)
     (property "Reference" "#PWR0126" (id 0) (at 185.42 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1270,7 +1270,7 @@
   )
 
   (symbol (lib_id "Diode:1N4001") (at 64.77 99.06 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 1a112a81-acd3-49eb-94af-3a946fc8489a)
     (property "Reference" "D1" (id 0) (at 64.77 94.0902 0))
     (property "Value" "1N4001" (id 1) (at 64.77 96.6271 0))
@@ -1285,7 +1285,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 140.97 102.87 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 205650f3-39fe-43e5-850a-093c380479a9)
     (property "Reference" "#PWR0190" (id 0) (at 140.97 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1301,7 +1301,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 27.94 59.69 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 2948418c-e12f-418c-a59c-41d42ec91e37)
     (property "Reference" "C44" (id 0) (at 30.861 58.8553 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1320,7 +1320,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 27.94 53.34 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 2bb4ca81-077a-4b0b-a807-33c2112db9a4)
     (property "Reference" "#PWR0188" (id 0) (at 27.94 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1336,7 +1336,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 53.34 31.75 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 4498e6de-03a0-4798-9748-fef5a60fdf82)
     (property "Reference" "C41" (id 0) (at 56.261 30.9153 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1355,7 +1355,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 166.37 101.6 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 48541b36-9402-4fa7-9b2a-ff2dd61ba4af)
     (property "Reference" "R1" (id 0) (at 168.148 100.7653 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1374,7 +1374,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 27.94 25.4 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 495c9e7e-1517-48c9-8b51-b02d90da6e91)
     (property "Reference" "#PWR0186" (id 0) (at 27.94 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1390,7 +1390,7 @@
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 34.29 101.6 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 4b77a275-b880-4a18-bd2f-bca2daf0ed67)
     (property "Reference" "P1" (id 0) (at 34.29 94.0902 0))
     (property "Value" "12VAC" (id 1) (at 34.29 96.6271 0))
@@ -1406,7 +1406,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 40.64 31.75 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5960e91c-0824-4ac5-a07b-d4af0e5172fa)
     (property "Reference" "C38" (id 0) (at 43.561 30.9153 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1425,7 +1425,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 203.2 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5d289484-265f-4154-87cf-78c1d8dea2c3)
     (property "Reference" "#PWR0128" (id 0) (at 203.2 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1441,7 +1441,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 254 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 685e596b-970d-4d3e-9253-c68048a5ba90)
     (property "Reference" "C9" (id 0) (at 256.921 95.6853 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1460,7 +1460,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 78.74 31.75 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 6e2944c8-9fd2-40aa-a408-205218648186)
     (property "Reference" "C60" (id 0) (at 81.661 30.2803 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1479,7 +1479,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 104.14 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 6f289991-d35c-41a3-a867-a2d0df3cfc39)
     (property "Reference" "#FLG0101" (id 0) (at 104.14 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1495,7 +1495,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 129.54 130.81 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 741a087e-5bff-46a9-a82e-4600e4f97780)
     (property "Reference" "C2" (id 0) (at 132.461 130.6103 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1514,7 +1514,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 129.54 111.76 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 77c9bb2b-f4c5-4850-a644-c5160ed075ee)
     (property "Reference" "C3" (id 0) (at 132.461 110.2903 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1533,7 +1533,7 @@
   )
 
   (symbol (lib_id "power:-5V") (at 151.13 143.51 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7978f4d9-56bf-4ddd-be2a-1431ca69acdd)
     (property "Reference" "#PWR0131" (id 0) (at 151.13 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1549,7 +1549,7 @@
   )
 
   (symbol (lib_id "Regulator_Linear:L7805") (at 154.94 88.9 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7f8b6fb8-3b2b-4471-a2e5-a9135fa4aa57)
     (property "Reference" "VR2" (id 0) (at 154.94 83.2952 0))
     (property "Value" "TL780-05CKC" (id 1) (at 154.94 85.8321 0))
@@ -1565,7 +1565,7 @@
   )
 
   (symbol (lib_id "Device:D_Zener") (at 173.99 116.84 270) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 80d4014d-757c-4340-8548-7832228cb81a)
     (property "Reference" "PATCH_D1" (id 0) (at 176.022 116.0053 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1584,7 +1584,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 27.94 38.1 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 819a9243-278e-45c3-8e90-5ae6bb5573fb)
     (property "Reference" "#PWR0187" (id 0) (at 27.94 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1600,7 +1600,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 104.14 127 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 87f9e7db-a7eb-4c01-9d59-d45aaa5728b9)
     (property "Reference" "#FLG0102" (id 0) (at 104.14 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1616,7 +1616,7 @@
   )
 
   (symbol (lib_id "power:-5V") (at 27.94 66.04 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 884e9e49-5777-41aa-82db-b4266879f0ca)
     (property "Reference" "#PWR0189" (id 0) (at 27.94 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1632,7 +1632,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 254 102.87 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 895f56cb-5d3b-45d5-887f-7f3b2e11f32b)
     (property "Reference" "#PWR0129" (id 0) (at 254 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1648,7 +1648,7 @@
   )
 
   (symbol (lib_id "Diode:1N4001") (at 73.66 107.95 270) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 8d73f07e-b100-466f-b37b-d8d7afa0267a)
     (property "Reference" "D2" (id 0) (at 76.2 107.95 0))
     (property "Value" "1N4001" (id 1) (at 71.12 107.95 0))
@@ -1663,7 +1663,7 @@
   )
 
   (symbol (lib_id "Diode:1N4001") (at 64.77 116.84 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a7392d44-8619-4ccf-8dfc-d5049f1cf690)
     (property "Reference" "D3" (id 0) (at 64.77 111.8702 0))
     (property "Value" "1N4001" (id 1) (at 64.77 114.4071 0))
@@ -1678,7 +1678,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 129.54 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a8ce229e-ff36-4cf8-8e5f-4946c142ab93)
     (property "Reference" "#PWR0133" (id 0) (at 129.54 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1694,7 +1694,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 66.04 31.75 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid af2f7c07-f464-4f0f-8374-44f4dffa95b8)
     (property "Reference" "C59" (id 0) (at 68.961 30.9153 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1713,7 +1713,7 @@
   )
 
   (symbol (lib_id "Regulator_Linear:MC7905") (at 193.04 124.46 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid b0306a63-d9b7-432d-af01-130fdf8d9270)
     (property "Reference" "VR1" (id 0) (at 193.04 128.3954 0))
     (property "Value" "MC7905" (id 1) (at 193.04 130.9323 0))
@@ -1729,7 +1729,7 @@
   )
 
   (symbol (lib_id "power:+10V") (at 113.03 80.01 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid c07581ca-c73b-45b4-8b99-167d6ea27163)
     (property "Reference" "#PWR0132" (id 0) (at 113.03 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1764,7 +1764,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 228.6 102.87 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid e2c4a9b8-5faa-4250-bfe5-809fbf1af3bf)
     (property "Reference" "#PWR0124" (id 0) (at 228.6 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1780,7 +1780,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 93.98 111.76 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid e38b9a31-6f03-4aa5-8988-7da2fcf33e8c)
     (property "Reference" "C1" (id 0) (at 96.901 110.2903 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1799,7 +1799,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 177.8 130.81 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid ea09accf-d714-4484-bbff-ed7f4ec54255)
     (property "Reference" "C6" (id 0) (at 180.721 129.9753 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1818,7 +1818,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 177.8 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid eb210239-2246-430e-9599-1a746ab44204)
     (property "Reference" "#PWR0130" (id 0) (at 177.8 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1834,7 +1834,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 140.97 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid ecb09c51-b9b2-49f9-924e-e5e3ff5178bc)
     (property "Reference" "C8" (id 0) (at 143.891 95.6853 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1853,7 +1853,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 203.2 102.87 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid f5c27b4a-ac5d-4ca8-8edc-36a4b45c2853)
     (property "Reference" "#PWR0125" (id 0) (at 203.2 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1869,7 +1869,7 @@
   )
 
   (symbol (lib_id "Diode:1N4001") (at 55.88 107.95 270) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid fc7f5b58-e59f-44b8-84e2-096741c7478d)
     (property "Reference" "D4" (id 0) (at 58.42 107.95 0))
     (property "Value" "1N4001" (id 1) (at 53.34 107.95 0))
@@ -1884,7 +1884,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 177.8 102.87 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid fd36be14-49de-4a0e-9ba9-6c797f6559f5)
     (property "Reference" "#PWR0127" (id 0) (at 177.8 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1900,7 +1900,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 27.94 31.75 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid fdada1dd-b091-48d6-877e-ecf8d1c95a74)
     (property "Reference" "C27" (id 0) (at 30.861 30.9153 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1919,7 +1919,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 177.8 96.52 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid fe7978f5-c667-442b-a36f-73ffdcc7ecbd)
     (property "Reference" "C7" (id 0) (at 180.721 95.6853 0)
       (effects (font (size 1.27 1.27)) (justify left))
