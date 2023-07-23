@@ -6,12 +6,12 @@
 
   (title_block
     (title "Audio IO & Modulation")
-    (date "2023-05-24")
-    (rev "3")
+    (date "2023-07-19")
+    (rev "4")
   )
 
   (lib_symbols
-    (symbol "Connector:AudioJack2_SwitchT" (in_bom yes) (on_board no)
+    (symbol "Connector:AudioJack2_SwitchT" (in_bom no) (on_board no)
       (property "Reference" "J" (id 0) (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -97,7 +97,7 @@
         )
       )
     )
-    (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board no)
+    (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom no) (on_board no)
       (property "Reference" "J" (id 0) (at 0.254 3.048 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -160,7 +160,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board no)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom no) (on_board no)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -211,7 +211,7 @@
         )
       )
     )
-    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board no)
+    (symbol "Device:C_Polarized_US" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom no) (on_board no)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -274,7 +274,7 @@
         )
       )
     )
-    (symbol "Device:Opamp_Quad" (in_bom yes) (on_board no)
+    (symbol "Device:Opamp_Quad" (in_bom no) (on_board no)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -406,7 +406,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -445,7 +445,7 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -497,7 +497,7 @@
         )
       )
     )
-    (symbol "power:-5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:-5V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -537,7 +537,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1506,7 +1506,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 184.15 34.29 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 004501c2-a80b-469a-8c3c-5726fc62d32d)
     (property "Reference" "R45" (id 0) (at 182.372 33.4553 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1525,7 +1525,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 147.32 97.79 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 02db4b25-103a-4b00-9359-cfac5e47b3e2)
     (property "Reference" "J7" (id 0) (at 147.6374 92.2636 0))
     (property "Value" "RCA Female" (id 1) (at 147.6374 94.8005 0))
@@ -1540,7 +1540,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 201.93 121.92 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 06826515-7dc5-4cdd-963e-72daafa70304)
     (property "Reference" "R48" (id 0) (at 201.93 117.2042 90))
     (property "Value" "100k" (id 1) (at 201.93 119.7411 90))
@@ -1555,7 +1555,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 200.66 100.33 0) (mirror x) (unit 3)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 0b2ad1fb-47cf-44e0-bb9b-77e2b677745f)
     (property "Reference" "U3" (id 0) (at 200.66 105.4131 0))
     (property "Value" "MC34074P" (id 1) (at 200.66 107.95 0))
@@ -1582,7 +1582,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 99.06 41.91 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 122de59c-7f98-4eb1-b47f-b20dacabdadf)
     (property "Reference" "R18" (id 0) (at 97.2821 41.0753 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1601,7 +1601,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 35.56 44.45 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 13a556e9-3415-471d-a3cf-04364d7867ab)
     (property "Reference" "#PWR0228" (id 0) (at 35.56 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1617,7 +1617,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 167.64 127 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 15b67a8f-c314-4836-8e34-8f6dc4c25acc)
     (property "Reference" "C36" (id 0) (at 167.005 121.1412 90))
     (property "Value" "10uF 25V" (id 1) (at 167.005 123.6781 90))
@@ -1632,7 +1632,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 201.93 27.94 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 15fe33ee-a167-4e77-92fb-d625402cb946)
     (property "Reference" "U3" (id 0) (at 201.93 33.0231 0))
     (property "Value" "MC34074P" (id 1) (at 201.93 35.56 0))
@@ -1659,7 +1659,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 156.21 71.12 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 1bb04bfa-72b3-4aab-b683-d8cf2c4a7888)
     (property "Reference" "#PWR0239" (id 0) (at 156.21 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1675,7 +1675,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 72.39 24.13 270) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 1d014bc3-adca-46f1-8bf6-93fb61d3c414)
     (property "Reference" "R15" (id 0) (at 72.39 19.4142 90))
     (property "Value" "100k" (id 1) (at 72.39 21.9511 90))
@@ -1690,7 +1690,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 80.01 125.73 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 253bc43c-b42f-48b1-a83d-6005169d7c76)
     (property "Reference" "R3" (id 0) (at 80.01 121.0142 90))
     (property "Value" "2.2k" (id 1) (at 80.01 123.5511 90))
@@ -1705,7 +1705,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 177.8 127 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 2d249822-848d-4447-9396-c8353eb367ee)
     (property "Reference" "R49" (id 0) (at 177.8 122.2842 90))
     (property "Value" "100k" (id 1) (at 177.8 124.8211 90))
@@ -1720,7 +1720,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 156.21 30.48 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 2d605edf-56be-407a-9ddc-f8d15783ad32)
     (property "Reference" "R30" (id 0) (at 157.988 29.6453 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1739,7 +1739,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 90.17 135.89 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 305e3cb1-cd4e-40d3-97ea-13103bfab06f)
     (property "Reference" "#PWR0234" (id 0) (at 90.17 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1755,7 +1755,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 57.15 29.21 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 32a68e16-f591-444e-96ac-454958abb8d3)
     (property "Reference" "R16" (id 0) (at 57.15 24.4942 90))
     (property "Value" "10k" (id 1) (at 57.15 27.0311 90))
@@ -1770,7 +1770,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 203.2 55.88 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 3462fb93-1fa1-4461-b396-ea3226b06d70)
     (property "Reference" "R33" (id 0) (at 203.2 51.1642 90))
     (property "Value" "100k" (id 1) (at 203.2 53.7011 90))
@@ -1785,7 +1785,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 200.66 129.54 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 36e20670-16b5-406d-8ae8-bcb1b336c180)
     (property "Reference" "U3" (id 0) (at 200.66 134.62 0))
     (property "Value" "MC34074P" (id 1) (at 200.66 137.1569 0))
@@ -1812,7 +1812,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 148.59 165.1 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 39d44975-f652-44db-b270-85fdb8efbf13)
     (property "Reference" "C24" (id 0) (at 148.59 159.2412 90))
     (property "Value" "10nF" (id 1) (at 148.59 161.7781 90))
@@ -1827,7 +1827,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 90.17 97.79 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 3af5502f-c646-4b1b-9d0e-85e984e76606)
     (property "Reference" "#PWR0236" (id 0) (at 90.17 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1843,7 +1843,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 90.17 125.73 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 3c047cb9-f1f5-430f-bcd8-da1581d01e58)
     (property "Reference" "J3" (id 0) (at 92.7101 125.1885 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1862,7 +1862,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 177.8 25.4 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 4329f8f9-748a-4699-a59b-5bb5daf16472)
     (property "Reference" "R46" (id 0) (at 177.8 20.6842 90))
     (property "Value" "100k" (id 1) (at 177.8 23.2211 90))
@@ -1877,7 +1877,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 147.32 71.12 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 4ba5c3f3-f873-4cc4-963f-1b2cd3184f73)
     (property "Reference" "#PWR0240" (id 0) (at 147.32 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1893,7 +1893,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 156.21 35.56 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 4cc6b2aa-8330-43d5-9ad5-cc09d703a058)
     (property "Reference" "#PWR0248" (id 0) (at 156.21 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1909,7 +1909,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 107.95 34.29 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 4d5552bc-5e68-40db-b093-617d53b4338f)
     (property "Reference" "U1" (id 0) (at 107.95 39.37 0))
     (property "Value" "MC34074P" (id 1) (at 107.95 41.9069 0))
@@ -1936,7 +1936,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 93.98 31.75 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 58b4ea6c-c109-4a97-95de-9aa23cf3a0a8)
     (property "Reference" "R20" (id 0) (at 93.98 27.0342 90))
     (property "Value" "8.2k" (id 1) (at 93.98 29.5711 90))
@@ -1951,7 +1951,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 38.1 135.89 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5d603a56-fb47-47aa-8ecc-917c6516420e)
     (property "Reference" "#PWR0226" (id 0) (at 38.1 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1967,7 +1967,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 156.21 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5de00de3-0855-4b92-a30f-17ef41b20f5c)
     (property "Reference" "#PWR0242" (id 0) (at 156.21 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1983,7 +1983,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 184.15 52.07 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5ed0c0d5-ba5c-409d-a5ea-7fce1b4cc747)
     (property "Reference" "R47" (id 0) (at 185.928 51.2353 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2002,7 +2002,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 35.56 162.56 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 5f9ba12f-d3ee-4612-976a-33d98fe6c7a5)
     (property "Reference" "#PWR0223" (id 0) (at 35.56 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2018,7 +2018,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 33.02 85.09 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 61ad2ac2-eea0-4253-8a67-137ab07deee6)
     (property "Reference" "R8" (id 0) (at 33.02 80.3742 90))
     (property "Value" "47k" (id 1) (at 33.02 82.9111 90))
@@ -2033,7 +2033,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 156.21 107.95 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 62afcbfc-1614-47ee-ba98-399366ca2763)
     (property "Reference" "#PWR0245" (id 0) (at 156.21 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2049,7 +2049,7 @@
   )
 
   (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 26.67 29.21 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 638c5ac3-dc70-48ed-ac35-59d27f076f82)
     (property "Reference" "J4" (id 0) (at 26.035 21.7002 0))
     (property "Value" "3.5mm TS Jack" (id 1) (at 26.035 24.2371 0))
@@ -2065,7 +2065,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 43.18 39.37 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 63a1db28-208a-4375-94bc-809da912632b)
     (property "Reference" "R14" (id 0) (at 44.958 38.5353 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2084,7 +2084,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 85.09 31.75 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 63d2d385-4922-4f59-85e6-535d4a650a99)
     (property "Reference" "C20" (id 0) (at 85.725 25.8912 90))
     (property "Value" "10uF 25V" (id 1) (at 85.725 28.4281 90))
@@ -2099,7 +2099,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 71.12 31.75 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 6b6262da-7b7c-411d-aa2c-b96a2b8e9fc3)
     (property "Reference" "U1" (id 0) (at 71.12 36.7198 0))
     (property "Value" "MC34074P" (id 1) (at 71.12 39.37 0))
@@ -2126,7 +2126,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 154.94 173.99 0) (mirror y) (unit 5)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 6cfb8c44-0d9d-4d33-979d-68839e1a9a49)
     (property "Reference" "U3" (id 0) (at 160.02 172.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2157,7 +2157,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 38.1 173.99 0) (unit 5)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 6f277038-b20b-42ea-9710-81c6c2536977)
     (property "Reference" "U1" (id 0) (at 36.83 172.7231 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2188,7 +2188,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 80.01 87.63 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 71829cd5-fae7-411d-aaaf-dcf64957d8ea)
     (property "Reference" "R5" (id 0) (at 80.01 82.9142 90))
     (property "Value" "2.2k" (id 1) (at 80.01 85.4511 90))
@@ -2203,7 +2203,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 99.06 48.26 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7852a919-c6d8-43f8-98ed-813b0cf21284)
     (property "Reference" "#PWR0222" (id 0) (at 99.06 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2219,7 +2219,7 @@
   )
 
   (symbol (lib_id "power:+5V") (at 157.48 162.56 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 799eae3a-64b0-4a56-8b88-1f3b17df8e56)
     (property "Reference" "#PWR0230" (id 0) (at 157.48 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2235,7 +2235,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 191.77 107.95 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7a8a4b28-9b24-41ba-ae5c-a911c87aa6b7)
     (property "Reference" "#PWR0247" (id 0) (at 191.77 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2251,7 +2251,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 72.39 97.79 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7c6df538-af7f-4b62-a55b-7d6b3f56305a)
     (property "Reference" "#PWR0237" (id 0) (at 72.39 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2267,7 +2267,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 48.26 118.11 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7c705d5e-01b0-41b6-93e0-35754515fa80)
     (property "Reference" "R9" (id 0) (at 48.26 113.3942 90))
     (property "Value" "100k" (id 1) (at 48.26 115.9311 90))
@@ -2282,7 +2282,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 177.8 60.96 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7e0acaa2-554c-4e20-979b-380ea2d27343)
     (property "Reference" "R32" (id 0) (at 177.8 56.2442 90))
     (property "Value" "100k" (id 1) (at 177.8 58.7811 90))
@@ -2297,7 +2297,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 72.39 130.81 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7e0bf453-234d-469d-a4b2-f16e8bd7c8e7)
     (property "Reference" "R4" (id 0) (at 74.168 129.9753 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2316,7 +2316,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 38.1 97.79 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7e85815c-1e68-4653-9fc4-24a4076015dd)
     (property "Reference" "#PWR0235" (id 0) (at 38.1 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2332,7 +2332,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 167.64 60.96 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 7fb618db-af65-4b0b-9c8a-4e1f000e0e06)
     (property "Reference" "C15" (id 0) (at 167.005 55.1012 90))
     (property "Value" "10uF 25V" (id 1) (at 167.005 57.6381 90))
@@ -2347,7 +2347,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 72.39 92.71 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 82e3baac-22ea-471f-98c6-c6d2a8530b3f)
     (property "Reference" "R6" (id 0) (at 74.168 91.8753 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2366,7 +2366,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 177.8 97.79 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 85ac6e78-c872-448d-933d-417057b85cae)
     (property "Reference" "R35" (id 0) (at 177.8 93.0742 90))
     (property "Value" "100k" (id 1) (at 177.8 95.6111 90))
@@ -2381,7 +2381,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 201.93 63.5 0) (mirror x) (unit 4)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 8dfce6b2-ccb2-4b54-81da-74a27c1dc389)
     (property "Reference" "U3" (id 0) (at 201.93 68.58 0))
     (property "Value" "MC34074P" (id 1) (at 201.93 71.1169 0))
@@ -2408,7 +2408,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 46.99 87.63 0) (mirror x) (unit 3)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 96d53037-d9c6-43df-ab44-d69b7f8bf401)
     (property "Reference" "U1" (id 0) (at 46.99 92.7131 0))
     (property "Value" "MC34074P" (id 1) (at 46.99 95.25 0))
@@ -2435,7 +2435,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 26.67 165.1 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 9a1ccf2c-ab80-478f-bdae-e4cd06231eaf)
     (property "Reference" "C18" (id 0) (at 26.67 159.2412 90))
     (property "Value" "10nF" (id 1) (at 26.67 161.7781 90))
@@ -2450,7 +2450,7 @@
   )
 
   (symbol (lib_id "power:-5V") (at 157.48 185.42 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 9b498b73-441a-48be-a325-b8e3eecfea45)
     (property "Reference" "#PWR0231" (id 0) (at 157.48 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2466,7 +2466,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 156.21 102.87 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a16d2fb5-599a-451e-be07-61b35bcafcbf)
     (property "Reference" "R34" (id 0) (at 157.988 102.0353 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2485,7 +2485,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 62.23 39.37 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a2b42247-01bd-40ee-b481-5eb38366e98d)
     (property "Reference" "R17" (id 0) (at 60.452 38.5353 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2504,7 +2504,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 203.2 20.32 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a4a19332-befa-4720-8d26-3757abc3cadb)
     (property "Reference" "R44" (id 0) (at 203.2 15.6042 90))
     (property "Value" "100k" (id 1) (at 203.2 18.1411 90))
@@ -2519,7 +2519,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 64.77 87.63 270) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid a8b19e9b-4402-4fa9-b292-65a55d726b94)
     (property "Reference" "C14" (id 0) (at 65.405 81.7712 90))
     (property "Value" "10uF 25V" (id 1) (at 65.405 84.3081 90))
@@ -2534,7 +2534,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 43.18 44.45 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid ab81a75f-a3f1-49ab-8f47-35f2811018f2)
     (property "Reference" "#PWR0227" (id 0) (at 43.18 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2550,7 +2550,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 147.32 107.95 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid afe2b0b4-9452-46d7-a43b-c66de3c193d5)
     (property "Reference" "#PWR0244" (id 0) (at 147.32 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2566,7 +2566,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 191.77 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid b01f1b77-757f-467a-ae52-4e58a37365b1)
     (property "Reference" "#PWR0243" (id 0) (at 191.77 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2582,7 +2582,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 167.64 97.79 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid b0ee1c42-a95e-4bb0-9d35-80fbe72105bd)
     (property "Reference" "C29" (id 0) (at 167.005 91.9312 90))
     (property "Value" "10uF 25V" (id 1) (at 167.005 94.4681 90))
@@ -2597,7 +2597,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 109.22 26.67 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid b122c9e1-d4a4-4a19-b63c-a08939576930)
     (property "Reference" "R19" (id 0) (at 109.22 21.9542 90))
     (property "Value" "100k" (id 1) (at 109.22 24.4911 90))
@@ -2612,7 +2612,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 156.21 66.04 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c16ab92e-0f19-46b9-b3e9-e1e0291ada85)
     (property "Reference" "R31" (id 0) (at 157.988 65.2053 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2631,7 +2631,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 48.26 80.01 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c225b9fb-1afe-4c85-8697-09d046be77a6)
     (property "Reference" "R10" (id 0) (at 48.26 75.2942 90))
     (property "Value" "100k" (id 1) (at 48.26 77.8311 90))
@@ -2646,7 +2646,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 90.17 87.63 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c2d9b3cf-ecc2-4170-a00e-7b2d6d2f3780)
     (property "Reference" "J2" (id 0) (at 92.7101 87.0885 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2665,7 +2665,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 147.32 25.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid c6f63f2b-3b72-4056-9a94-7fe35a6a183e)
     (property "Reference" "J5" (id 0) (at 147.6374 19.8736 0))
     (property "Value" "RCA Female" (id 1) (at 147.6374 22.4105 0))
@@ -2680,7 +2680,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 33.02 123.19 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c70c59aa-9dd3-4605-99ef-964e221b84e4)
     (property "Reference" "R7" (id 0) (at 33.02 118.4742 90))
     (property "Value" "47k" (id 1) (at 33.02 121.0111 90))
@@ -2695,7 +2695,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 147.32 35.56 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c75d4e46-517c-42ae-a0ff-bf2c8be2f686)
     (property "Reference" "#PWR0249" (id 0) (at 147.32 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2711,7 +2711,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 72.39 135.89 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid c9891d22-30ce-41e9-ab3d-82192bbcffed)
     (property "Reference" "#PWR0233" (id 0) (at 72.39 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2727,7 +2727,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 26.67 182.88 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid cb6d09b4-f6eb-4c26-ae91-7f31763b3847)
     (property "Reference" "C13" (id 0) (at 26.67 177.0212 90))
     (property "Value" "10nF" (id 1) (at 26.67 179.5581 90))
@@ -2742,7 +2742,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 148.59 182.88 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid cda99986-655d-4889-8d25-b4183cff1043)
     (property "Reference" "C16" (id 0) (at 148.59 177.0212 90))
     (property "Value" "10nF" (id 1) (at 148.59 179.5581 90))
@@ -2757,7 +2757,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 193.04 71.12 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid cdb20e39-eaf8-4d8f-84e2-1dbf14b3c556)
     (property "Reference" "#PWR0238" (id 0) (at 193.04 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2773,7 +2773,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 90.17 41.91 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid cdbc175a-5af3-43cf-b934-5059bb72f8ee)
     (property "Reference" "C19" (id 0) (at 87.249 41.0753 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2792,7 +2792,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 147.32 60.96 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid d096048a-91aa-4af7-bb92-ba4ca00599a2)
     (property "Reference" "J6" (id 0) (at 147.6374 55.4336 0))
     (property "Value" "RCA Female" (id 1) (at 147.6374 57.9705 0))
@@ -2807,7 +2807,7 @@
   )
 
   (symbol (lib_id "Device:Opamp_Quad") (at 46.99 125.73 0) (mirror x) (unit 4)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid d5c4b9a1-0e03-4b69-ac12-64e62df7d2f0)
     (property "Reference" "U1" (id 0) (at 46.99 130.8131 0))
     (property "Value" "MC34074P" (id 1) (at 46.99 133.35 0))
@@ -2834,7 +2834,7 @@
   )
 
   (symbol (lib_id "power:-5V") (at 35.56 185.42 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid d6bc438e-2f4f-436f-b2da-f7a133f3844e)
     (property "Reference" "#PWR0224" (id 0) (at 35.56 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2850,7 +2850,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 193.04 35.56 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid d903063a-36c3-47f0-8d1d-962325e84b7d)
     (property "Reference" "#PWR0246" (id 0) (at 193.04 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2866,7 +2866,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_Coaxial") (at 147.32 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid de3e769d-ceb0-4670-ac83-ad1b2f707a14)
     (property "Reference" "J8" (id 0) (at 147.6374 121.4736 0))
     (property "Value" "RCA Female" (id 1) (at 147.6374 124.0105 0))
@@ -2881,7 +2881,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 201.93 92.71 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid df97f607-9e40-4085-bfb4-53c8bc30f920)
     (property "Reference" "R36" (id 0) (at 201.93 87.9942 90))
     (property "Value" "100k" (id 1) (at 201.93 90.5311 90))
@@ -2896,7 +2896,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 21.59 189.23 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid e2ca982e-4a37-4e91-ad28-418cfc28484f)
     (property "Reference" "#PWR0225" (id 0) (at 21.59 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2912,7 +2912,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 143.51 189.23 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid e5eda828-8b16-40fe-ac68-932ac28f27af)
     (property "Reference" "#PWR0232" (id 0) (at 143.51 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2928,7 +2928,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 62.23 44.45 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid eb0dbd4a-8c2e-4ecf-a270-7b7af3fcfb12)
     (property "Reference" "#PWR0229" (id 0) (at 62.23 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2944,7 +2944,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 64.77 125.73 270) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid eeab261e-1ed1-466d-920a-07c7181115f8)
     (property "Reference" "C12" (id 0) (at 65.405 119.8712 90))
     (property "Value" "10uF 25V" (id 1) (at 65.405 122.4081 90))
@@ -2959,7 +2959,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 167.64 25.4 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid f2647342-7e78-4893-bf2a-eca97dd835d1)
     (property "Reference" "C22" (id 0) (at 167.005 19.5412 90))
     (property "Value" "10uF 25V" (id 1) (at 167.005 22.0781 90))
@@ -2974,7 +2974,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 147.32 137.16 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid f830746f-4234-4a3a-8d17-89f76b24e08f)
     (property "Reference" "#PWR0241" (id 0) (at 147.32 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2990,7 +2990,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 48.26 29.21 90) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid f89610c7-8fae-4d22-b2a8-15e9d5ccf6a2)
     (property "Reference" "C17" (id 0) (at 47.625 23.3512 90))
     (property "Value" "10uF 25V" (id 1) (at 47.625 25.8881 90))
@@ -3005,7 +3005,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 156.21 132.08 180) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid fba83db8-b8ce-42a6-9729-ebbdd4853672)
     (property "Reference" "R50" (id 0) (at 157.988 131.2453 0)
       (effects (font (size 1.27 1.27)) (justify right))

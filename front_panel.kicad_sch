@@ -6,12 +6,12 @@
 
   (title_block
     (title "Front Panel Controls")
-    (date "2023-05-24")
-    (rev "3")
+    (date "2023-07-19")
+    (rev "4")
   )
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_02x13_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board no)
+    (symbol "Connector_Generic:Conn_02x13_Odd_Even" (pin_names (offset 1.016) hide) (in_bom no) (on_board no)
       (property "Reference" "J" (id 0) (at 1.27 17.78 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -248,7 +248,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board no)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom no) (on_board no)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -299,7 +299,7 @@
         )
       )
     )
-    (symbol "Device:R_Potentiometer" (pin_names (offset 1.016) hide) (in_bom yes) (on_board no)
+    (symbol "Device:R_Potentiometer" (pin_names (offset 1.016) hide) (in_bom no) (on_board no)
       (property "Reference" "RV" (id 0) (at -4.445 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -360,7 +360,7 @@
         )
       )
     )
-    (symbol "Device:R_Potentiometer_Dual" (pin_names (offset 1.016) hide) (in_bom yes) (on_board no)
+    (symbol "Device:R_Potentiometer_Dual" (pin_names (offset 1.016) hide) (in_bom no) (on_board no)
       (property "Reference" "RV" (id 0) (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -584,7 +584,7 @@
         )
       )
     )
-    (symbol "Videonics Proceessor Plus:R_Potentiometer_With_Switch" (pin_names hide) (in_bom yes) (on_board no)
+    (symbol "Videonics Proceessor Plus:R_Potentiometer_With_Switch" (pin_names hide) (in_bom no) (on_board no)
       (property "Reference" "RV" (id 0) (at -7.62 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -740,7 +740,7 @@
         )
       )
     )
-    (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:+10V" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -792,7 +792,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board no)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1604,7 +1604,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 190.5 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 1a7f181d-4e0d-4302-bff1-488315e1139d)
     (property "Reference" "RV6" (id 0) (at 186.055 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 187.96 120.65 90))
@@ -1620,7 +1620,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 74.93 59.69 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 214f4296-edce-414a-b598-57d114f0be9a)
     (property "Reference" "C10" (id 0) (at 77.851 58.8553 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1639,7 +1639,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 215.9 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 2c846cd6-b53a-4463-80ea-3171150a9a13)
     (property "Reference" "RV7" (id 0) (at 211.455 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 213.36 120.65 90))
@@ -1655,7 +1655,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 139.7 66.04 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid 33e005bf-ef8c-49ad-b0f8-f7dbab8acfa8)
     (property "Reference" "#PWR0191" (id 0) (at 139.7 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1671,7 +1671,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 114.3 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 3c2f7e8e-19e5-4c30-a0a1-c23f2217e1ff)
     (property "Reference" "RV3" (id 0) (at 109.855 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 111.76 120.65 90))
@@ -1687,7 +1687,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer_Dual") (at 26.67 167.64 270) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 6a27ec50-6f74-4564-b7db-5cbaef1e2409)
     (property "Reference" "RV1" (id 0) (at 20.32 167.64 0))
     (property "Value" "10k Linear Dual-Slide" (id 1) (at 18.5467 167.64 0))
@@ -1706,7 +1706,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 241.3 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 6f998e9f-87f2-4b30-9819-1c48888e644a)
     (property "Reference" "RV8" (id 0) (at 236.855 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 238.76 120.65 90))
@@ -1722,7 +1722,7 @@
   )
 
   (symbol (lib_id "Videonics Proceessor Plus:R_Potentiometer_With_Switch") (at 67.31 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid 92687c3c-b431-4477-9bf0-996291c303f8)
     (property "Reference" "RV2" (id 0) (at 58.42 119.38 0))
     (property "Value" "8k Linear" (id 1) (at 58.42 121.92 0))
@@ -1740,7 +1740,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x13_Odd_Even") (at 207.01 63.5 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid baeca21f-e3e8-461d-832f-da5986f424d1)
     (property "Reference" "JP1" (id 0) (at 208.28 45.8272 0))
     (property "Value" "Conn_02x13_Odd_Even" (id 1) (at 208.28 45.8271 0)
@@ -1781,7 +1781,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 139.7 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid d8b7c5e2-21c7-489e-9d91-3134535b525d)
     (property "Reference" "RV4" (id 0) (at 135.255 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 137.16 120.65 90))
@@ -1797,7 +1797,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 266.7 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid dbd73d3e-7373-4705-a96f-8ca23424de56)
     (property "Reference" "RV9" (id 0) (at 262.255 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 264.16 120.65 90))
@@ -1813,7 +1813,7 @@
   )
 
   (symbol (lib_id "power:+10V") (at 74.93 49.53 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid dd4c5ff7-3580-4ff4-94ef-71f1e3779787)
     (property "Reference" "#PWR0138" (id 0) (at 74.93 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1829,7 +1829,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 74.93 66.04 0) (unit 1)
-    (in_bom yes) (on_board no) (fields_autoplaced)
+    (in_bom no) (on_board no) (fields_autoplaced)
     (uuid e666cd20-d85c-4a58-a7c7-c0fe0d943201)
     (property "Reference" "#PWR0134" (id 0) (at 74.93 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1845,7 +1845,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer") (at 165.1 120.65 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom no) (on_board no)
     (uuid f5435f32-3d78-4ff7-842e-728ff761d964)
     (property "Reference" "RV5" (id 0) (at 160.655 120.65 90))
     (property "Value" "10k Linear Slide" (id 1) (at 162.56 120.65 90))
