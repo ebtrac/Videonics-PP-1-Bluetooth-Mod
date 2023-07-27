@@ -587,6 +587,15 @@
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/59ff0b84-ea7a-4e6a-a7bc-22813f819dfe"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/7cde236d-7111-42eb-a4d5-db8318c6cce3"
+      (reference "#PWR026") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/4d1326ba-07df-44a8-8554-f635be941baa"
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/87a0e79a-39bc-4ca1-a0ce-f29895e31784"
+      (reference "#PWR028") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/75d87cb3-4bf4-4ca9-b41d-15bc43613f7c/fcdc7196-dada-4229-9ace-0cfde143a24b"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
@@ -1037,9 +1046,6 @@
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/303127d0-3d10-4cd2-8e94-ebf9911db2a2"
       (reference "#PWR0250") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/f5263e80-8414-4cee-9b60-e3afa3bfead4"
-      (reference "#PWR0251") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/bd4044f5-8100-4003-88c6-95fffda0312a"
       (reference "#PWR0258") (unit 1) (value "GND") (footprint "")
     )
@@ -1267,6 +1273,12 @@
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/c47aae8d-c622-460e-90ea-8f58b6f09e0f"
       (reference "C67") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/0a8d6f15-79f3-4675-b90f-c1a9106f8d92"
+      (reference "C68") (unit 1) (value "4.7uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/5da85a04-e78f-4734-8606-ceb51d7f0b1f"
+      (reference "C69") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm")
     )
     (path "/f06c0fef-9556-4b99-be67-4a5c2aec9580/dc34a952-31bb-46f9-a93d-6a5436c84f40"
       (reference "CVC01") (unit 1) (value "CVC01") (footprint "")
@@ -1816,6 +1828,9 @@
     )
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/296eebac-1d27-4c17-a5f4-d83056ab55fd"
       (reference "U15") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/6305b0a3-bda9-4012-940f-ebfadd4723d8"
+      (reference "U16") (unit 1) (value "MCP1826S-3302E/AB") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/962281b5-7e42-43dd-aa58-877cd64dcd85/b0306a63-d9b7-432d-af01-130fdf8d9270"
       (reference "VR1") (unit 1) (value "MC7905") (footprint "")
