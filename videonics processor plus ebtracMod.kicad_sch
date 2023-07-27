@@ -1259,9 +1259,6 @@
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/ffdd4070-ed23-441c-b2ae-e0791e64029c"
       (reference "C62") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
     )
-    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/17939ae8-3d77-4e86-b49c-2dfc3836f8a6"
-      (reference "C63") (unit 1) (value "10uF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
-    )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/d746e9b5-33a4-4331-92c8-fbe3421034f6"
       (reference "C64") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm")
     )
