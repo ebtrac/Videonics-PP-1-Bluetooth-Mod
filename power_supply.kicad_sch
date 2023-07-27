@@ -7,7 +7,7 @@
   (title_block
     (title "Power Supply")
     (date "2023-07-19")
-    (rev "4")
+    (rev "5")
   )
 
   (lib_symbols
