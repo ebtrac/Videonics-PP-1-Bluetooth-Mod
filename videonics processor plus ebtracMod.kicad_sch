@@ -1701,13 +1701,13 @@
       (reference "R89") (unit 1) (value "1k") (footprint "")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/3e2d7526-4c01-449c-9d18-fea10c7a29d0"
-      (reference "R90") (unit 1) (value "10k") (footprint "")
+      (reference "R90") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/33458d42-3d34-4d05-894d-a6c9a221a986"
-      (reference "R91") (unit 1) (value "10k") (footprint "")
+      (reference "R91") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/92acf618-b0d8-4532-a539-5df4c10aa15d"
-      (reference "R92") (unit 1) (value "10k") (footprint "")
+      (reference "R92") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/c9f7de88-f8bf-4f1a-84cd-843eb46645d8"
       (reference "R99") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
@@ -1800,22 +1800,22 @@
       (reference "U9") (unit 1) (value "BAEASU_ESP32_DevKit_v1") (footprint "videonics processor plus - Copy:DIP-30_1000_ELL")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/0a89effd-4ccc-4006-af6c-93bcd3a828ba"
-      (reference "U10") (unit 1) (value "74LS244") (footprint "")
+      (reference "U10") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/3d122bcd-0f63-45c1-9e1d-a0b37f2274bd"
-      (reference "U11") (unit 1) (value "74LS244") (footprint "")
+      (reference "U11") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/15add622-cf28-4c32-ae90-f9570204d19a"
-      (reference "U12") (unit 1) (value "74LS244") (footprint "")
+      (reference "U12") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/70abc32d-7b76-4ba0-b791-5494f4f7b1bf"
-      (reference "U13") (unit 1) (value "74LS244") (footprint "")
+      (reference "U13") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/0cbf508a-c2bb-4e2a-b4f3-7762bbd4fa46"
-      (reference "U14") (unit 1) (value "74LS244") (footprint "")
+      (reference "U14") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/296eebac-1d27-4c17-a5f4-d83056ab55fd"
-      (reference "U15") (unit 1) (value "74LS244") (footprint "")
+      (reference "U15") (unit 1) (value "74LS244") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/962281b5-7e42-43dd-aa58-877cd64dcd85/b0306a63-d9b7-432d-af01-130fdf8d9270"
       (reference "VR1") (unit 1) (value "MC7905") (footprint "")
