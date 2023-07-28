@@ -198,7 +198,7 @@
     (uuid dbd0089d-3afd-409b-9bbb-8e7fd9a36307)
   )
 
-  (wire (pts (xy 104.14 41.91) (xy 119.38 41.91))
+  (wire (pts (xy 101.6 41.91) (xy 119.38 41.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid dd85766a-b3b5-45f0-8b92-737454f2e4ad)
   )
@@ -376,6 +376,10 @@
     (pin "DAT_DSP[1..14]" input (at 101.6 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6540a105-66df-4ae7-8f66-c32ab37c9465)
+    )
+    (pin "~{VID_BLK}" input (at 101.6 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 9af4df80-cfbb-42b8-b1e5-6b8af408a0d4)
     )
   )
 
