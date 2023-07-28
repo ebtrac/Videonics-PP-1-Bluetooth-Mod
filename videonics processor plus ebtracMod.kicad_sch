@@ -42,6 +42,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0cf96d71-ca2b-4159-ae15-b4bbf45f1ef1)
   )
+  (wire (pts (xy 119.38 68.58) (xy 119.38 41.91))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0ddc3e38-22fb-41d4-8b41-ebafe36c1852)
+  )
   (bus (pts (xy 203.2 97.79) (xy 217.17 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1b4af8f1-acf4-4274-b1dd-09a06490a7ac)
@@ -156,6 +160,10 @@
     (uuid c305e3a2-75be-4bbd-acd0-c710208bd297)
   )
 
+  (wire (pts (xy 127 68.58) (xy 119.38 68.58))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c6c448e5-1c27-4eaf-9978-5dfa37cb40f0)
+  )
   (wire (pts (xy 109.22 48.26) (xy 109.22 73.66))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cb54a599-35d6-4ff8-94bb-4d6c65d9e028)
@@ -190,6 +198,10 @@
     (uuid dbd0089d-3afd-409b-9bbb-8e7fd9a36307)
   )
 
+  (wire (pts (xy 104.14 41.91) (xy 119.38 41.91))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid dd85766a-b3b5-45f0-8b92-737454f2e4ad)
+  )
   (wire (pts (xy 111.76 97.79) (xy 111.76 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e4cde8b3-6fa3-4744-a93b-0ef6c22d4f45)
@@ -304,6 +316,10 @@
     (pin "DAT_MCU[1..14]" output (at 127 71.12 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6804609f-b313-4eac-92be-6281d2bf209e)
+    )
+    (pin "~{VID_BLK}" output (at 127 68.58 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid fa9e8a66-21d2-4015-87fd-956ab17a7fd4)
     )
   )
 
@@ -1046,6 +1062,12 @@
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/303127d0-3d10-4cd2-8e94-ebf9911db2a2"
       (reference "#PWR0250") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/f217cbb2-2b10-4603-95e2-89b2a6bd290f"
+      (reference "#PWR0251") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/8bf46615-f175-4d6d-82be-5b65147a6e8e"
+      (reference "#PWR0252") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/bd4044f5-8100-4003-88c6-95fffda0312a"
       (reference "#PWR0258") (unit 1) (value "GND") (footprint "")
     )
@@ -1361,6 +1383,9 @@
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/0b0d9160-9938-4cd0-b892-f568fc94ba80"
       (reference "J15") (unit 1) (value "DAT_DSP_9..14") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/7bc98a8b-777e-4ee8-9be7-8bb737e75131"
+      (reference "J16") (unit 1) (value "~{VID_BLK}") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
     (path "/b9e696c4-ae03-4bea-bb3e-e63111859237/baeca21f-e3e8-461d-832f-da5986f424d1"
       (reference "JP1") (unit 1) (value "Conn_02x13_Odd_Even") (footprint "")
     )
@@ -1438,6 +1463,9 @@
     )
     (path "/c75e76f4-1967-4b04-abbd-bc5dfe1ab587/9281ed22-fa07-4a51-8966-414122eb8d4b"
       (reference "Q16") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/64cebd65-c0dd-4ded-b22f-83a287d6d639"
+      (reference "Q17") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/88656a7b-8df1-4faf-ac86-c791d10d969c"
       (reference "Q20") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
@@ -1717,6 +1745,12 @@
     )
     (path "/1abae2d0-0153-4001-a10a-70bd4ccb9f34/92acf618-b0d8-4532-a539-5df4c10aa15d"
       (reference "R92") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/44fff87e-8dd5-4438-bd40-297147bd030e"
+      (reference "R93") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+    )
+    (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/71407b5b-5c0a-4b7b-99ff-b2a846f52acc"
+      (reference "R94") (unit 1) (value "220k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/b0d0a36a-2958-4482-a6bb-9b3de3eee92b/c9f7de88-f8bf-4f1a-84cd-843eb46645d8"
       (reference "R99") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
